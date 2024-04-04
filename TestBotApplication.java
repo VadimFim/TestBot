@@ -36,19 +36,19 @@ public class TestBotApplication extends TelegramLongPollingBot {
 		cityTrains.put("Київ", kyivTrains);
 
 		Map<Integer, String> odesaTrains = new HashMap<>();
-		odesaTrains.put(1, "Київський експрес");
-		odesaTrains.put(2, "Київ-Львів");
-		cityTrains.put("Київ", odesaTrains);
+		odesaTrains.put(1, "Одеський експрес");
+		odesaTrains.put(2, "Одеса-Київ");
+		cityTrains.put("Одеса", odesaTrains);
 
 		Map<Integer, String> harkivTrains = new HashMap<>();
-		harkivTrains.put(1, "Київський експрес");
-		harkivTrains.put(2, "Київ-Львів");
-		cityTrains.put("Київ", harkivTrains);
+		harkivTrains.put(1, "Харківський експрес");
+		harkivTrains.put(2, "Харків-Одеса");
+		cityTrains.put("Харків", harkivTrains);
 
 		Map<Integer, String> rivneTrains = new HashMap<>();
-		rivneTrains.put(1, "Київський експрес");
-		rivneTrains.put(2, "Київ-Львів");
-		cityTrains.put("Київ", rivneTrains);
+		rivneTrains.put(1, "Рівненський експрес");
+		rivneTrains.put(2, "Рівне-Здолбунів-Львів");
+		cityTrains.put("Рівне", rivneTrains);
 	}
 
 	private final Map<Long, String> userCityChoice = new HashMap<>();
